@@ -20,34 +20,21 @@
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
           <collectionProp name="Arguments.arguments">
-            <elementProp name="USERNAME_FILE" elementType="Argument">
-              <stringProp name="Argument.name">USERNAME_FILE</stringProp>
-              <stringProp name="Argument.value">${__P(username_file,../user-files/users1.csv)}</stringProp>
+            <elementProp name="CONTACTS" elementType="Argument">
+              <stringProp name="Argument.name">CONTACTS</stringProp>
+              <stringProp name="Argument.value">${__P(contactsFile,/Users/sakshi.nayak/Documents/jmeterrr/contacts.csv)}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
         </Arguments>
         <hashTree/>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="false">
-          <stringProp name="filename">${__P(ACCOUNTS)}</stringProp>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config">
+          <stringProp name="filename">${CONTACTS}</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames"></stringProp>
-          <stringProp name="delimiter">,</stringProp>
-          <stringProp name="shareMode">shareMode.all</stringProp>
-          <boolProp name="ignoreFirstLine">false</boolProp>
-          <boolProp name="qoutedData">false</boolProp>
-          <boolProp name="recycle">true</boolProp>
-          <boolProp name="stopThread">false</boolProp>
-          <boolProp name="quotedData">false</boolProp>
-        </CSVDataSet>
-        <hashTree/>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="false">
-          <stringProp name="filename">${__P(OPPORTUNITIES)}</stringProp>
-          <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="variableNames"></stringProp>
-          <boolProp name="ignoreFirstLine">false</boolProp>
+          <boolProp name="ignoreFirstLine">true</boolProp>
           <stringProp name="delimiter">,</stringProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">true</boolProp>
@@ -72,8 +59,7 @@
  &quot;price&quot;: &quot;13.5&quot;,&#xd;
 &quot;description&quot;: &quot;lorem ipsum set&quot;,&#xd;
 &quot;image&quot;: &quot;https://i.pravatar.cc&quot;,&#xd;
-&quot;accountId&quot;: &quot;${account_id}&quot;,&#xd;
-&quot;opportunityId&quot;: &quot;${opportunity_id}&quot;&#xd;
+&quot;contactId&quot;: &quot;${contact_id}&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
