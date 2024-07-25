@@ -6,8 +6,7 @@
     "script_name": "script4.jmx",
     "user_files": "users1.csv",
     "data_files": {
-        "ACCOUNTS" : "accounts.csv",
-        "OPPORTUNITIES" : "opportunities.csv"  
+        "CONTACTS" : "contacts.csv" 
       }
     }
   ]
