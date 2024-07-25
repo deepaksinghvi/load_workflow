@@ -8,7 +8,7 @@
     "data_files": {
         "ACCOUNTS" : "accounts.csv",
         "OPPORTUNITIES" : "opportunities.csv"  
-      },
+      }
     },
     {
     "task_name": "task2",
@@ -16,7 +16,7 @@
     "user_files": "users2.csv",
     "data_files": {
         "ACCOUNTS" : "accounts.csv" 
-      },
+      }
     },
     {
     "task_name": "task3",
@@ -24,7 +24,7 @@
     "user_files": "users3.csv",
     "data_files": {
         "OPPORTUNITIES" : "opportunities.csv"  
-      },
+      }
     },
     {
       "task_name": "task4",
