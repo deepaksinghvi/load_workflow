@@ -3,18 +3,13 @@
   "tasks": [
     {
       "task_name": "task1",
-      "script_name": "script4.jmx",
-      "user_files": "users1.csv",
+      "script_name": "script5.jmx",
+      "user_files": "users4.csv",
       "data_files": [
         {
           "contactsFile": "contacts.csv"
         }
       ]
-    },
-    {
-    "task_name": "task1",
-    "script_name": "script1.jmx",
-    "user_files": "users1.csv"
     }
   ]
 }
