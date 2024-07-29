@@ -29,7 +29,7 @@
             </elementProp>
             <elementProp name="CONTACT_ID" elementType="Argument">
               <stringProp name="Argument.name">CONTACT_ID</stringProp>
-              <stringProp name="Argument.value">${__P(contact_id, ../data-files/contacts.csv)}</stringProp>
+              <stringProp name="Argument.value">${__P(contact_id,../data-files/contacts.csv)}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
@@ -61,7 +61,7 @@
         </CSVDataSet>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Login">
-          <stringProp name="HTTPSampler.domain">kotakcustserv--devsbox.sandbox.my.salesforce.com</stringProp>
+          <stringProp name="HTTPSampler.domain">fpsxtestorg2.sfdctest.my.salesforce.com</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.path">/services/Soap/c/51.0</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
@@ -78,7 +78,7 @@ xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;
       &lt;soap:Body&gt; &#xd;
          &lt;login xmlns=&quot;urn:enterprise.soap.sforce.com&quot;&gt; &#xd;
             &lt;username&gt;${username}&lt;/username&gt; &#xd;
-            &lt;password&gt;test@1234&lt;/password&gt; &#xd;
+            &lt;password&gt;test1234&lt;/password&gt; &#xd;
          &lt;/login&gt; &#xd;
       &lt;/soap:Body&gt; &#xd;
    &lt;/soap:Envelope&gt; </stringProp>
@@ -103,7 +103,7 @@ xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;
             <collectionProp name="HeaderManager.headers">
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">SOAPAction</stringProp>
-                <stringProp name="Header.value">https://kotakcustserv--devsbox.sandbox.my.salesforce.com</stringProp>
+                <stringProp name="Header.value">https://fpsxtestorg2.sfdctest.my.salesforce.com</stringProp>
               </elementProp>
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">content-type</stringProp>
@@ -342,14 +342,14 @@ xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;
           <stringProp name="filename"></stringProp>
         </ResultCollector>
         <hashTree/>
-        <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler">
+        <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler" enabled="true">
           <boolProp name="displayJMeterProperties">false</boolProp>
           <boolProp name="displayJMeterVariables">true</boolProp>
           <boolProp name="displaySystemProperties">false</boolProp>
         </DebugSampler>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get Contact Details">
-          <stringProp name="HTTPSampler.path">https://kotakcustserv--devsbox.sandbox.my.salesforce.com:443/services/data/v51.0/sobjects/contact/${contact_id}</stringProp>
+          <stringProp name="HTTPSampler.path">https://fpsxtestorg2.sfdctest.lightning.force.com:443/services/data/v51.0/sobjects/contact/${contact_id}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
