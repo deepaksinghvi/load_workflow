@@ -10,8 +10,8 @@
     </TestPlan>
     <hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Salesforce Rest API">
-        <intProp name="ThreadGroup.num_threads">3</intProp>
-        <intProp name="ThreadGroup.ramp_time">6</intProp>
+        <intProp name="ThreadGroup.num_threads">1</intProp>
+        <intProp name="ThreadGroup.ramp_time">0</intProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="ThreadGroup (Loop Controller)">
@@ -24,12 +24,12 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="USERNAME_FILE" elementType="Argument">
               <stringProp name="Argument.name">USERNAME_FILE</stringProp>
-              <stringProp name="Argument.value">${__P(username_file,/Users/sakshi.nayak/Documents/jmeterrr/OurScript/users.csv)}</stringProp>
+              <stringProp name="Argument.value">${__P(username_file,../user-files/users.csv)}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="OPPORTUNITY_FILE" elementType="Argument">
               <stringProp name="Argument.name">OPPORTUNITY_FILE</stringProp>
-              <stringProp name="Argument.value">${__P(opportunity_id,/Users/sakshi.nayak/Documents/jmeterrr/OurScript/opportunities.csv)}</stringProp>
+              <stringProp name="Argument.value">${__P(opportunity_id,../data-files/opportunities.csv)}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
