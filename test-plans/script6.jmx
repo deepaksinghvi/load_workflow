@@ -24,12 +24,12 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="USERNAME_FILE" elementType="Argument">
               <stringProp name="Argument.name">USERNAME_FILE</stringProp>
-              <stringProp name="Argument.value">${__P(username_file,/Users/sakshi.nayak/Documents/jmeterrr/OurScript/users.csv)}</stringProp>
+              <stringProp name="Argument.value">${__P(username_file,../user-files/users.csv)}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="ACCOUNT_FILE" elementType="Argument">
               <stringProp name="Argument.name">ACCOUNT_FILE</stringProp>
-              <stringProp name="Argument.value">${__P(account_id,/Users/sakshi.nayak/Documents/jmeterrr/OurScript/accounts.csv)}</stringProp>
+              <stringProp name="Argument.value">${__P(account_id,../data-files/accounts.csv)}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
@@ -60,7 +60,7 @@
           <stringProp name="shareMode">shareMode.all</stringProp>
         </CSVDataSet>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Login">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Login" enabled="true">
           <stringProp name="HTTPSampler.domain">fpsxtestorg2.sfdctest.my.salesforce.com</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.path">/services/Soap/c/51.0</stringProp>
@@ -136,13 +136,13 @@ xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;
         </hashTree>
         <OnceOnlyController guiclass="OnceOnlyControllerGui" testclass="OnceOnlyController" testname="Once Only Controller" enabled="false"/>
         <hashTree/>
-        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller">
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller" enabled="true">
           <stringProp name="IfController.condition">${__javaScript(&quot;${ACCOUNTID}&quot; != &quot;&quot;)}</stringProp>
           <boolProp name="IfController.evaluateAll">false</boolProp>
           <boolProp name="IfController.useExpression">true</boolProp>
         </IfController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create Opportunity ">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create Opportunity " enabled="true">
             <stringProp name="HTTPSampler.domain">fpsxtestorg2.sfdctest.my.salesforce.com</stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.path">/services/data/v60.0/sobjects/Opportunity/</stringProp>
@@ -225,7 +225,7 @@ xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;
           <stringProp name="filename"></stringProp>
         </ResultCollector>
         <hashTree/>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
