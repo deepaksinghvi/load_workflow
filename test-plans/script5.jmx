@@ -20,21 +20,26 @@
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
           <collectionProp name="Arguments.arguments">
             <elementProp name="USERNAME_FILE" elementType="Argument">
               <stringProp name="Argument.name">USERNAME_FILE</stringProp>
-              <stringProp name="Argument.value">${__P(username_file,/Users/sakshi.nayak/Documents/jmeterrr/OurScript/users.csv)}</stringProp>
+              <stringProp name="Argument.value">${__P(username_file,../user-files/users.csv)}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="CONTACT_ID" elementType="Argument">
               <stringProp name="Argument.name">CONTACT_ID</stringProp>
-              <stringProp name="Argument.value">${__P(contact_id,/Users/sakshi.nayak/Documents/jmeterrr/OurScript/contacts.csv)}</stringProp>
+              <stringProp name="Argument.value">${__P(contact_id,../data-files/contacts.csv)}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="OPPORTUNITY_FILE" elementType="Argument">
               <stringProp name="Argument.name">OPPORTUNITY_FILE</stringProp>
-              <stringProp name="Argument.value">${__P(opportunity_id,/Users/sakshi.nayak/Documents/jmeterrr/OurScript/opportunities.csv)}</stringProp>
+              <stringProp name="Argument.value">${__P(opportunity_id,../data-files/opportunities.csv)}</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="ACCOUNT_FILE" elementType="Argument">
+              <stringProp name="Argument.name">ACCOUNT_FILE</stringProp>
+              <stringProp name="Argument.value">${__P(account_id,../data-files/accounts.csv)}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
@@ -51,6 +56,18 @@
           <boolProp name="recycle">true</boolProp>
           <boolProp name="stopThread">false</boolProp>
           <boolProp name="quotedData">false</boolProp>
+        </CSVDataSet>
+        <hashTree/>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+          <stringProp name="filename">${ACCOUNT_FILE}</stringProp>
+          <stringProp name="fileEncoding"></stringProp>
+          <stringProp name="variableNames"></stringProp>
+          <boolProp name="ignoreFirstLine">false</boolProp>
+          <stringProp name="delimiter">,</stringProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
@@ -227,7 +244,7 @@ xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;
   &quot;Name&quot;: &quot;CPS FPSx&quot;,&#xd;
   &quot;StageName&quot;: &quot;06 - Ready for Listing Review&quot;,&#xd;
   &quot;CloseDate&quot;: &quot;2024-12-30&quot;,&#xd;
-  &quot;AccountId&quot;: &quot;001KP000002eh8FYAQ&quot;&#xd;
+  &quot;AccountId&quot;: &quot;${account_id}&quot;&#xd;
 }</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
