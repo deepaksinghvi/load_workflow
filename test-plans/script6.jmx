@@ -24,12 +24,12 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="USERNAME_FILE" elementType="Argument">
               <stringProp name="Argument.name">USERNAME_FILE</stringProp>
-              <stringProp name="Argument.value">${__P(username_file,/Users/sakshi.nayak/Documents/jmeterrr/OurScript/users.csv)}</stringProp>
+              <stringProp name="Argument.value">${__P(username_file,../user-files/users4.csv)}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="CONTACT_ID" elementType="Argument">
               <stringProp name="Argument.name">CONTACT_ID</stringProp>
-              <stringProp name="Argument.value">${__P(contact_id, /Users/sakshi.nayak/Documents/jmeterrr/OurScript/contacts.csv)}</stringProp>
+              <stringProp name="Argument.value">${__P(contact_id,../data-files/contacts.csv)}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
