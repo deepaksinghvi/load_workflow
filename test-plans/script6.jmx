@@ -29,7 +29,7 @@
             </elementProp>
             <elementProp name="ACCOUNT_FILE" elementType="Argument">
               <stringProp name="Argument.name">ACCOUNT_FILE</stringProp>
-              <stringProp name="Argument.value">${__P(account_id,../data-files/accounts.csv)}</stringProp>
+              <stringProp name="Argument.value">${__P(account_file,../data-files/accounts.csv)}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
