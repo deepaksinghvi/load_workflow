@@ -4,33 +4,33 @@
     {
     "task_name": "task1",
     "script_name": "script5.jmx",
-    "USERNAME_FILE": "users4.csv",
+    "username_file": "users4.csv",
     "data_files": {
-        "ACCOUNT_FILE" : "accounts.csv",
-        "OPPORTUNITY_FILE" : "opportunities.csv",
-        "CONTACT_ID" : "contacts.csv"
+        "account_file" : "accounts.csv",
+        "opportunity_file" : "opportunities.csv",
+        "contact_file" : "contacts.csv"
       }
     },
     {
     "task_name": "task2",
     "script_name": "script6.jmx",
-    "USERNAME_FILE": "users4.csv",
+    "username_file": "users4.csv",
     "data_files": {
-        "ACCOUNT_FILE" : "accounts.csv" 
+        "account_file" : "accounts.csv" 
       }
     },
     {
     "task_name": "task3",
     "script_name": "script8.jmx",
-    "USERNAME_FILE": "users4.csv",
+    "username_file": "users4.csv",
     "data_files": {
-        "OPPORTUNITIES" : "opportunities.csv"  
+        "opportunity_file" : "opportunities.csv"  
       }
     },
     {
       "task_name": "task4",
       "script_name": "script4.jmx",
-      "USERNAME_FILE": "users4.csv"
+      "username_file": "users4.csv"
     }
   ]
 }
