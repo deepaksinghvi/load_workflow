@@ -6,6 +6,6 @@
 
 - user-files - To store user credential files.
 
-- workload-metadata - To store metadata files which describes the overall orchestration.
-
 - data-files - To be referred in the jmx files.
+
+- workload-metadata - To store metadata files which describes the overall orchestration.
