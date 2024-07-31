@@ -29,7 +29,7 @@
     },
     {
       "task_name": "task4",
-      "script_name": "script4.jmx",
+      "script_name": "PluginScript.jmx",
       "user_files": "users4.csv"
     }
   ]
