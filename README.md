@@ -1,5 +1,5 @@
 # load_workflow
-### Demo Git Structure to use https://app-us-west-2.sf-scaletest-loadgen.com/
+### Demo Git Structure to use https://fpsxorg2.sf-scaletest-loadgen.com
 
 #####
 - test-plans - To store JMeter Script (.jmx) files.
