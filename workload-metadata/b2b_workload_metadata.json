@@ -29,8 +29,7 @@
     },
     {
       "task_name": "task4",
-      "script_name": "script4.jmx",
-      "user_files": "users4.csv"
+      "script_name": "script4.jmx"
     }
   ]
 }
