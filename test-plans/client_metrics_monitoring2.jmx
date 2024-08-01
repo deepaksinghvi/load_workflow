@@ -116,7 +116,7 @@
             <collectionProp name="prometheus.collector_definitions">
               <elementProp name="" elementType="com.github.johrstrom.listener.ListenerCollectorConfig">
                 <stringProp name="collector.help">the response time for a jsr223 sampler</stringProp>
-                <stringProp name="collector.metric_name">pod1_jsr223_rt_as_hist</stringProp>
+                <stringProp name="collector.metric_name">pod2_jsr223_rt_as_hist</stringProp>
                 <stringProp name="collector.type">HISTOGRAM</stringProp>
                 <collectionProp name="collector.labels">
                   <stringProp name="102727412">label</stringProp>
@@ -128,7 +128,7 @@
               </elementProp>
               <elementProp name="" elementType="com.github.johrstrom.listener.ListenerCollectorConfig">
                 <stringProp name="collector.help">the response time for a jsr223 sampler</stringProp>
-                <stringProp name="collector.metric_name">pod1_jsr223_rt_as_summary</stringProp>
+                <stringProp name="collector.metric_name">pod2_jsr223_rt_as_summary</stringProp>
                 <stringProp name="collector.type">SUMMARY</stringProp>
                 <collectionProp name="collector.labels">
                   <stringProp name="50511102">category</stringProp>
@@ -141,7 +141,7 @@
               </elementProp>
               <elementProp name="" elementType="com.github.johrstrom.listener.ListenerCollectorConfig">
                 <stringProp name="collector.help">default help string</stringProp>
-                <stringProp name="collector.metric_name">pod1_jsr223_count_total</stringProp>
+                <stringProp name="collector.metric_name">pod2_jsr223_count_total</stringProp>
                 <stringProp name="collector.type">COUNTER</stringProp>
                 <collectionProp name="collector.labels">
                   <stringProp name="102727412">label</stringProp>
@@ -153,7 +153,7 @@
               </elementProp>
               <elementProp name="" elementType="com.github.johrstrom.listener.ListenerCollectorConfig">
                 <stringProp name="collector.help">the total number of successful samplers</stringProp>
-                <stringProp name="collector.metric_name">pod1_jsr223_success_total</stringProp>
+                <stringProp name="collector.metric_name">pod2_jsr223_success_total</stringProp>
                 <stringProp name="collector.type">COUNTER</stringProp>
                 <collectionProp name="collector.labels">
                   <stringProp name="102727412">label</stringProp>
@@ -164,7 +164,7 @@
               </elementProp>
               <elementProp name="" elementType="com.github.johrstrom.listener.ListenerCollectorConfig">
                 <stringProp name="collector.help">the response size for a jsr223 sampler</stringProp>
-                <stringProp name="collector.metric_name">pod1_jsr223_rsize_as_hist</stringProp>
+                <stringProp name="collector.metric_name">pod2_jsr223_rsize_as_hist</stringProp>
                 <stringProp name="collector.type">HISTOGRAM</stringProp>
                 <collectionProp name="collector.labels">
                   <stringProp name="1121125477">POD_NAME</stringProp>
@@ -174,7 +174,7 @@
               </elementProp>
               <elementProp name="" elementType="com.github.johrstrom.listener.ListenerCollectorConfig">
                 <stringProp name="collector.help">success ratio of the can_fail_sampler</stringProp>
-                <stringProp name="collector.metric_name">pod1_jsr223_can_fail</stringProp>
+                <stringProp name="collector.metric_name">pod2_jsr223_can_fail</stringProp>
                 <stringProp name="collector.type">SUCCESS_RATIO</stringProp>
                 <collectionProp name="collector.labels">
                   <stringProp name="1121125477">POD_NAME</stringProp>
@@ -184,7 +184,7 @@
               </elementProp>
               <elementProp name="" elementType="com.github.johrstrom.listener.ListenerCollectorConfig">
                 <stringProp name="collector.help">the latency (ttfb) for a jsr223 sampler</stringProp>
-                <stringProp name="collector.metric_name">pod1_jsr223_latency_as_hist</stringProp>
+                <stringProp name="collector.metric_name">pod2_jsr223_latency_as_hist</stringProp>
                 <stringProp name="collector.type">HISTOGRAM</stringProp>
                 <collectionProp name="collector.labels">
                   <stringProp name="102727412">label</stringProp>
@@ -195,7 +195,7 @@
               </elementProp>
               <elementProp name="" elementType="com.github.johrstrom.listener.ListenerCollectorConfig">
                 <stringProp name="collector.help">the idle time for a jsr223 sampler</stringProp>
-                <stringProp name="collector.metric_name">pod1_jsr223_idle_time</stringProp>
+                <stringProp name="collector.metric_name">pod2_jsr223_idle_time</stringProp>
                 <stringProp name="collector.type">SUMMARY</stringProp>
                 <collectionProp name="collector.labels">
                   <stringProp name="1121125477">POD_NAME</stringProp>
@@ -205,7 +205,7 @@
               </elementProp>
               <elementProp name="" elementType="com.github.johrstrom.listener.ListenerCollectorConfig">
                 <stringProp name="collector.help">default help string</stringProp>
-                <stringProp name="collector.metric_name">pod1_jsr223_assertions</stringProp>
+                <stringProp name="collector.metric_name">pod2_jsr223_assertions</stringProp>
                 <stringProp name="collector.type">SUCCESS_RATIO</stringProp>
                 <collectionProp name="collector.labels">
                   <stringProp name="102727412">label</stringProp>
@@ -219,7 +219,7 @@
             <stringProp name="TestPlan.comments">This listener &quot;measures&quot; everything, sometimes in summaries, sometimes in histograms.</stringProp>
           </com.github.johrstrom.listener.PrometheusListener>
           <hashTree/>
-          <ResultCollector guiclass="StatGraphVisualizer" testclass="ResultCollector" testname="Aggregate Graph" enabled="true">
+          <ResultCollector guiclass="StatGraphVisualizer" testclass="ResultCollector" testname="Aggregate Graph">
             <boolProp name="ResultCollector.error_logging">false</boolProp>
             <objProp>
               <name>saveConfig</name>
