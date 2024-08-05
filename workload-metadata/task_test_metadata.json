@@ -12,7 +12,7 @@
       }
     },
     {
-    "task_name": "task1",
+    "task_name": "task2",
     "script_name": "script2.jmx",
     "user_files": "users2.csv",
     "data_files": {
