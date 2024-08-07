@@ -3,7 +3,13 @@
   "tasks": [
     {
       "task_name": "taskError1",
-      "script_name": "ErrorFile.jmx"
+      "script_name": "ErrorFile.jmx",
+       "user_files": "usersabc.csv",
+       "data_files": {
+        "account_file" : "accountsabc.csv",
+        "opportunity_file" : "opportunitiesabc.csv",
+        "contact_file" : "contacts.csv"
+      }
     }
   ]
 }
