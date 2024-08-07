@@ -10,6 +10,24 @@
         "opportunity_file" : "opportunitiesabc.csv",
         "contact_file" : "contacts.csv"
       }
+    },
+    {
+    "task_name": "task2",
+    "script_name": "script1.jmx",
+    "user_files": "users1.csv",
+    "data_files": {
+        "account_file" : "accounts.csv",
+        "opportunity_file" : "opportunities.csv",
+        "contact_file" : "contacts.csv"
+      }
+    },
+    {
+    "task_name": "task3",
+    "script_name": "script2.jmx",
+    "user_files": "users2.csv",
+    "data_files": {
+        "account_file" : "accounts.csv" 
+      }
     }
   ]
 }
