@@ -2,21 +2,37 @@
   "jmeter_version" : "5.6.3",
   "tasks": [
     {
-    "task_name": "taskFileName",
+    "task_name": "taskSp1",
     "script_name": "script1.jmx",
     "user_files": "users1.csv",
     "data_files": {
-        "account_file" : "accounts@`~$%^&*()!.csv",
+        "account_file" : "accounts_1.csv",
         "opportunity_file" : "opportunities.csv",
         "contact_file" : "contacts.csv"
       }
     },
     {
-    "task_name": "task3",
+    "task_name": "taskSp2",
     "script_name": "script2.jmx",
     "user_files": "users2.csv",
     "data_files": {
-        "account_file" : "accounts@`~$%^&*()!.csv" 
+        "account_file" : "account-2.csv" 
+      }
+    },
+    {
+    "task_name": "taskSp3",
+    "script_name": "script2.jmx",
+    "user_files": "users2.csv",
+    "data_files": {
+        "account_file" : "account@3.csv" 
+      }
+    },
+    {
+    "task_name": "taskSp4",
+    "script_name": "script2.jmx",
+    "user_files": "users2.csv",
+    "data_files": {
+        "account_file" : "account.3.csv" 
       }
     }
   ]
