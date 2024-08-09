@@ -316,6 +316,24 @@
                 <stringProp name="listener.collector.measuring">SuccessRatio</stringProp>
                 <stringProp name="listener.collector.listen_to">assertions</stringProp>
               </elementProp>
+              <elementProp name="" elementType="com.github.johrstrom.listener.ListenerCollectorConfig">
+                <stringProp name="collector.help">default help string</stringProp>
+                <stringProp name="collector.metric_name">jsr223_latency_as_summary</stringProp>
+                <stringProp name="collector.type">SUMMARY</stringProp>
+                <collectionProp name="collector.labels">
+                  <stringProp name="102727412">label</stringProp>
+                  <stringProp name="-1955326858">ORG_ID</stringProp>
+                  <stringProp name="570880527">USER_ID</stringProp>
+                  <stringProp name="2126713638">ORG_NAME</stringProp>
+                  <stringProp name="1121327380">POD_TYPE</stringProp>
+                  <stringProp name="219737020">TEST_RUN_ID</stringProp>
+                  <stringProp name="-1929557643">POD_ID</stringProp>
+                  <stringProp name="-1298093819">TASK_NAME</stringProp>
+                  <stringProp name="1864936831">SCRIPT_NAME</stringProp>
+                </collectionProp>
+                <stringProp name="collector.quantiles_or_buckets">0.75,0.5|0.95,0.1|0.99,0.01</stringProp>
+                <stringProp name="listener.collector.measuring">Latency</stringProp>
+              </elementProp>
             </collectionProp>
             <stringProp name="TestPlan.comments">This listener &quot;measures&quot; everything, sometimes in summaries, sometimes in histograms.</stringProp>
           </com.github.johrstrom.listener.PrometheusListener>
@@ -357,7 +375,7 @@
             <stringProp name="filename"></stringProp>
           </ResultCollector>
           <hashTree/>
-          <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="true">
+          <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results">
             <boolProp name="ResultCollector.error_logging">false</boolProp>
             <objProp>
               <name>saveConfig</name>
@@ -395,12 +413,12 @@
           </ResultCollector>
           <hashTree/>
         </hashTree>
-        <SyncTimer guiclass="TestBeanGUI" testclass="SyncTimer" testname="Synchronizing Timer" enabled="true">
+        <SyncTimer guiclass="TestBeanGUI" testclass="SyncTimer" testname="Synchronizing Timer">
           <intProp name="groupSize">0</intProp>
           <longProp name="timeoutInMs">0</longProp>
         </SyncTimer>
         <hashTree/>
-        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer">
           <stringProp name="ConstantTimer.delay">300</stringProp>
         </ConstantTimer>
         <hashTree/>
