@@ -11,11 +11,11 @@
     },
     {
     "task_name": "task3",
-    "script_name": "client_metrics_monitoring.jmx"
+    "script_name": "client_metrics_monitoring_2.jmx"
     },
     {
       "task_name": "task4",
-      "script_name": "client_metrics_monitoring.jmx"
+      "script_name": "client_metrics_monitoring_2.jmx"
     }
   ]
 }
