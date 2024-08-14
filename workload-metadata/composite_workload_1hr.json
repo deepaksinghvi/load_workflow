@@ -3,7 +3,7 @@
   "tasks": [
     {
     "task_name": "read",
-    "script_name": "CW_Read_StandardObjects.jmx",
+    "script_name": "CW_Read_StandardObjects_1hr.jmx",
     "user_files": "users.csv"
     }
   ]
