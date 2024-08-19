@@ -30,6 +30,10 @@
     {
       "task_name": "task4",
       "script_name": "script4.jmx"
+    },
+    {
+      "task_name": "task5",
+      "script_name": "script4.jmx"
     }
   ]
 }
