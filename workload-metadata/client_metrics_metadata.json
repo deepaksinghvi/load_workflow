@@ -3,103 +3,103 @@
   "tasks": [
     {
       "task_name": "task1",
-      "script_name": "client_metrics_monitoring.jmx"
+      "script_name": "client-metrics-monitoring.jmx"
     },
     {
       "task_name": "task2",
-      "script_name": "client_metrics_monitoring.jmx"
+      "script_name": "client-metrics-monitoring.jmx"
     },
     {
       "task_name": "task3",
-      "script_name": "client_metrics_monitoring_2.jmx"
+      "script_name": "client-metrics-monitoring-2.jmx"
     },
     {
       "task_name": "task4",
-      "script_name": "client_metrics_monitoring_2.jmx"
+      "script_name": "client-metrics-monitoring-2.jmx"
     },
     {
       "task_name": "task5",
-      "script_name": "client_metrics_monitoring.jmx"
+      "script_name": "client-metrics-monitoring.jmx"
     },
     {
       "task_name": "task6",
-      "script_name": "client_metrics_monitoring.jmx"
+      "script_name": "client-metrics-monitoring.jmx"
     },
     {
       "task_name": "task7",
-      "script_name": "client_metrics_monitoring_2.jmx"
+      "script_name": "client-metrics-monitoring-2.jmx"
     },
     {
       "task_name": "task8",
-      "script_name": "client_metrics_monitoring_2.jmx"
+      "script_name": "client-metrics-monitoring-2.jmx"
     },
     {
       "task_name": "task9",
-      "script_name": "client_metrics_monitoring.jmx"
+      "script_name": "client-metrics-monitoring.jmx"
     },
     {
       "task_name": "task10",
-      "script_name": "client_metrics_monitoring.jmx"
+      "script_name": "client-metrics-monitoring.jmx"
     },
     {
       "task_name": "task11",
-      "script_name": "client_metrics_monitoring_2.jmx"
+      "script_name": "client-metrics-monitoring-2.jmx"
     },
     {
       "task_name": "task12",
-      "script_name": "client_metrics_monitoring_2.jmx"
+      "script_name": "client-metrics-monitoring-2.jmx"
     },
     {
       "task_name": "task13",
-      "script_name": "client_metrics_monitoring.jmx"
+      "script_name": "client-metrics-monitoring.jmx"
     },
     {
       "task_name": "task14",
-      "script_name": "client_metrics_monitoring.jmx"
+      "script_name": "client-metrics-monitoring.jmx"
     },
     {
       "task_name": "task15",
-      "script_name": "client_metrics_monitoring_2.jmx"
+      "script_name": "client-metrics-monitoring-2.jmx"
     },
     {
       "task_name": "task16",
-      "script_name": "client_metrics_monitoring_2.jmx"
+      "script_name": "client-metrics-monitoring-2.jmx"
     },
     {
       "task_name": "task17",
-      "script_name": "client_metrics_monitoring.jmx"
+      "script_name": "client-metrics-monitoring.jmx"
     },
     {
       "task_name": "task18",
-      "script_name": "client_metrics_monitoring.jmx"
+      "script_name": "client-metrics-monitoring.jmx"
     },
     {
       "task_name": "task19",
-      "script_name": "client_metrics_monitoring_2.jmx"
+      "script_name": "client-metrics-monitoring-2.jmx"
     },
     {
       "task_name": "task20",
-      "script_name": "client_metrics_monitoring_2.jmx"
+      "script_name": "client-metrics-monitoring-2.jmx"
     },
     {
       "task_name": "task21",
-      "script_name": "client_metrics_monitoring.jmx"
+      "script_name": "client-metrics-monitoring.jmx"
     },
     {
       "task_name": "task22",
-      "script_name": "client_metrics_monitoring.jmx"
+      "script_name": "client-metrics-monitoring.jmx"
     },
     {
       "task_name": "task23",
-      "script_name": "client_metrics_monitoring_2.jmx"
+      "script_name": "client-metrics-monitoring-2.jmx"
     },
     {
       "task_name": "task24",
-      "script_name": "client_metrics_monitoring_2.jmx"
+      "script_name": "client-metrics-monitoring-2.jmx"
     },
     {
       "task_name": "task25",
-      "script_name": "client_metrics_monitoring.jmx"
+      "script_name": "client-metrics-monitoring.jmx"
     }
   ]
 }
