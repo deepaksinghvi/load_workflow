@@ -2,7 +2,7 @@
   "jmeter_version": "5.6.3",
   "tasks": [
     {
-      "task_name": "no listener jmeter task",
+      "task_name": "no-listener-jmeter-task",
       "script_name": "client-metrics-monitoring-no-listener.jmx"
     }
   ]
